@@ -18,7 +18,7 @@ First, you'll need to install the top-level nation data:
 
 Then, you'll need to load any state-level data that you want:
 
-    docker exec -itu postgres my-pg-tiger /scripts/load-states. CA IL NY   # space-separated
+    docker exec -itu postgres my-pg-tiger /scripts/load-states.sh CA IL NY   # space-separated
 
 Loading the data takes a _really long time_. Be patient.
 
